@@ -20,7 +20,7 @@
 김병관, qud654@pusan.ac.kr (데이터전처리, 학습모델 테스트, 학습모델 최적화 및 오류수정)
 
 ## 3. 시스템 구성도
-
+![Pipeline](https://github.com/pnucse-capstone/capstone-2023-1-01/assets/48307605/697c539d-02cb-4c4c-b7d8-97ac4296853e)
 프로젝트 결과물의 개괄적인 동작을 파악할 수 있는 이미지와 글을 작성하세요.
 
 ## 4. 소개 및 시연 영상
