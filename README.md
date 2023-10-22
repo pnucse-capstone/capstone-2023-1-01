@@ -52,6 +52,14 @@ Python을 기반으로 틀을 제작하는 PYQT5 라이브러리, CT 이미지�
 - Driver version 510.47.03
 - CUDA Version 11.6
 - Docker 20.10.12
+
+### 라이브러리
+- pip install itk
+- pip install vtk
+- pip install matplotlib
+- pip install numpy
+- pip install PyQt5
+- pip install opencv-python
   
 ### Train Models
 - MIC-DKFZ
