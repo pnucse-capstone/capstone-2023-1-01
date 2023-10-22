@@ -58,12 +58,15 @@ Python을 기반으로 틀을 제작하는 PYQT5 라이브러리, CT 이미지�
   - nnUNet(https://github.com/MIC-DKFZ/nnUNet)
 
 ### 라이브러리
-- pip install itk
-- pip install vtk
-- pip install matplotlib
+- pip install itk (slice image)
+- pip install vtk (3D 렌더링)
+- pip install PyQt5 (GUI)
+- pip install opencv-python(image resize)
+- pip install matplotlib 
 - pip install numpy
-- pip install PyQt5
-- pip install opencv-python
+  
+
+
  
 ### Dataset
 - AbdomenCT-1K Dataset
