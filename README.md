@@ -22,7 +22,10 @@
 본 프로젝트는 Ubuntu 20.04 버전에서 개발되었으며 함께 포함된 다음의 스크립트를 수행하여 관련 패키지들의 설치와 빌드를 수행할 수 있습니다.
 ### 환경
 - Python 3.8.2
+- Driver version 510.47.03
+- CUDA Version 11.6
 - Docker 20.10.12
+  
 ### Train Models
 - MIC-DKFZ
   - nnUNet(https://github.com/MIC-DKFZ/nnUNet)
