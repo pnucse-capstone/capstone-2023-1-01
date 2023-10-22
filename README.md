@@ -24,11 +24,13 @@
 
 ### 3.1 데이터 수집
 ![Grand_challenge](https://github.com/pnucse-capstone/capstone-2023-1-01/assets/48307605/e13e59a1-6dd6-40e4-8819-ae7b28266505)
+
  본 과제에서 다룰 데이터는 논문 “AbdomenCT-1K: Is Abdominal Organ Segmentation A Solved Problem?” 의 공식 데이터셋을 사용하였다. 해당 논문에서는 기존에 있던 논문들의 단일 장기 데이터셋에서 간, 신장, 비장, 췌장의 복부CT 장기segmentation 데이터셋을 수집하였고 현재 활발히 연구되고 있는 주제인 fully supervised learning, semi-supervised learning, weakly supervised learning, continual learning에 대한 benchmark를 만들어 두었다. 우리는 fully supervised learning의 데이터셋과 성능 측정 지표를 사용하였다.
 
 ### 3.2 데이터 전처리 및 학습
 ![kubernetes](https://github.com/pnucse-capstone/capstone-2023-1-01/assets/48307605/3491eb0f-fe70-4bd8-ba13-1cd7897d2359)
-데이터 전처리 및 학습을 하기 위해 AI서버를 사용하였다. AI서버란 인공지능 및 머신러닝 작업을 수행하기 위해 고성능 그래픽장치(GPU)를 장착한 서버로 이미지 Segmentation과 같이 대규모 데이터를 학습하는데 적합하다. AI서버를 효과적으로 사용하기 위해 기존의 아나콘다 환경이 아닌 쿠버네티스 플랫폼을 사용하여 진행하였다.
+
+ 데이터 전처리 및 학습을 하기 위해 AI서버를 사용하였다. AI서버란 인공지능 및 머신러닝 작업을 수행하기 위해 고성능 그래픽장치(GPU)를 장착한 서버로 이미지 Segmentation과 같이 대규모 데이터를 학습하는데 적합하다. AI서버를 효과적으로 사용하기 위해 기존의 아나콘다 환경이 아닌 쿠버네티스 플랫폼을 사용하여 진행하였다.
 ![nnUNet](https://github.com/pnucse-capstone/capstone-2023-1-01/assets/48307605/e3b654dd-a025-4471-afbd-e4a583505bba)
 기존의 의료영상데이터를 다루는 모델에는 서로 다른 장기간의 segmentation방식에 큰 차이가 있었고 표준화된 방식이 없었다. 이를 해결하고자 다양한 데이터에 대해 표준화된 파이프라인을 제공하는 nnUNet이 만들어지게 되었고, nnUNet을 사용하여 데이터 전처리 및 학습을 진행하였다. 학습된 데이터를 성능평가지표인 DSC와 NSD를 통해 평가하였다.
 
