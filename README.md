@@ -53,6 +53,10 @@ Python을 기반으로 틀을 제작하는 PYQT5 라이브러리, CT 이미지�
 - CUDA Version 11.6
 - Docker 20.10.12
 
+### Train Models
+- MIC-DKFZ
+  - nnUNet(https://github.com/MIC-DKFZ/nnUNet)
+
 ### 라이브러리
 - pip install itk
 - pip install vtk
@@ -60,10 +64,6 @@ Python을 기반으로 틀을 제작하는 PYQT5 라이브러리, CT 이미지�
 - pip install numpy
 - pip install PyQt5
 - pip install opencv-python
-  
-### Train Models
-- MIC-DKFZ
-  - nnUNet(https://github.com/MIC-DKFZ/nnUNet)
  
 ### Dataset
 - AbdomenCT-1K Dataset
