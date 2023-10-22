@@ -29,6 +29,12 @@
 ### Train Models
 - MIC-DKFZ
   - nnUNet(https://github.com/MIC-DKFZ/nnUNet)
+ 
+### Dataset
+- AbdomenCT-1K Dataset
+  - part1(https://zenodo.org/record/5903099)
+  - part2(https://zenodo.org/record/5903846)
+  - part3(https://zenodo.org/record/5903769)
 
 ## 4. README.md 작성팁 
 * 마크다운 언어를 이용해 README.md 파일을 작성할 때 참고할 수 있는 마크다운 언어 문법을 공유합니다.  
