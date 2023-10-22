@@ -14,11 +14,14 @@
 
 프로젝트 소개나 시연 영상을 넣으세요.
 
-### 5. 라이브러리
+### 5. 설치 및 사용법
 
+### 환경
+- Python 3.8.2
 
-
-***
+### Train Models
+- MIC-DKFZ
+  - nnUNet(https://github.com/MIC-DKFZ/nnUNet)
 
 ## 4. README.md 작성팁 
 * 마크다운 언어를 이용해 README.md 파일을 작성할 때 참고할 수 있는 마크다운 언어 문법을 공유합니다.  
