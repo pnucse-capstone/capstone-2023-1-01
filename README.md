@@ -44,6 +44,7 @@ Python을 기반으로 틀을 제작하는 PYQT5 라이브러리, CT 이미지�
 ## 4. 소개 및 시연 영상
 
 프로젝트 소개나 시연 영상을 넣으세요.
+[![2023년 전기 졸업과제 01 LATE](http://img.youtube.com/watch?v=GAzeG_AvjQg/0.jpg)](https://www.youtube.com/watch?v=GAzeG_AvjQg)    
 
 ## 5. 설치 및 사용법
 본 프로젝트는 Ubuntu 20.04 버전에서 개발되었으며 함께 포함된 다음의 스크립트를 수행하여 관련 패키지들의 설치와 빌드를 수행할 수 있습니다.
