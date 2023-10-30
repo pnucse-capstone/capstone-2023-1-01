@@ -42,9 +42,7 @@ Python을 기반으로 틀을 제작하는 PYQT5 라이브러리, CT 이미지�
 완성된 시각화 프로그램은 크게 3가지 부분으로 나눌 수 있다. 상단은 결과물로 앞에서 학습한 데이터와 label을 읽어오고 복부 단면을 2D이미지로 보여준다 슬라이더를 이용하여 축마다 복부를 볼 수 있고, bounding box기능을 통해 장기가 어디에 있는지 보기 쉽도록 하였다. 중단의 경우 단면을 3D로 렌더링하여 시각화 하였다. 하단은 렌더링된 3D모델을 체크박스를 통해 원하는 장기만 시각화하는 체크박스와 2D이미지와 3D영상을 모두 png형태로 저장하여 하나의 이미지로 변환하는 기능이 탑재되어 있다.
 
 ## 4. 소개 및 시연 영상
-
-프로젝트 소개나 시연 영상을 넣으세요.
-[![2023년 전기 졸업과제 01 LATE](http://img.youtube.com/watch?v=GAzeG_AvjQg/0.jpg)](https://www.youtube.com/watch?v=GAzeG_AvjQg)    
+[![2023년 전기 졸업과제 01 LATE](http://img.youtube.com/vi/GAzeG_AvjQg/0.jpg)](https://www.youtube.com/watch?v=GAzeG_AvjQg)    
 
 ## 5. 설치 및 사용법
 본 프로젝트는 Ubuntu 20.04 버전에서 개발되었으며 함께 포함된 다음의 스크립트를 수행하여 관련 패키지들의 설치와 빌드를 수행할 수 있습니다.
